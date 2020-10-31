@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#container {
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+#drum-machine {
+    height: 450px;
+    width: 600px;
+    background-color: rgb(224, 181, 110);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+#display {
+    height: 140px;
+    background-color: steelblue;
+    width: 400px;
+    margin-top: 40px;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+#buttons {
+    width: 265px;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: -5px;
+}
+.drum-pad {
+    width: 80px;
+    height: 70px;
+    font-size: 17px;
+    padding: 0px;
+    margin-left: 5px;
+    outline: none;
+    background-color: rgb(106, 141, 103);
+    color: white;
+    cursor: pointer;
+}
+.drum-pad:hover {
+    background-color: rgb(84, 131, 81);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
